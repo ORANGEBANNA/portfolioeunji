@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<title>store_매장찾기</title>
+
+	<link rel="stylesheet" href="../CSS/header.css">
+	<link rel="stylesheet" href="css/store_find-store.css">
+	<link rel="stylesheet" href="../CSS/reset.css">
+	<link rel="stylesheet" href="../CSS/footer.css">
+	
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-ui-1.12.1.min.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="../JS/header.js"></script>
+
+
+</head>
+
+<body>
+		<header>
+		<div class="top">
+			<div class="hot-line">
+				<a href="http://www.krispykreme.co.kr/popup/pop_today_hot_hour.asp" target="_blank">
+					<img src="img/hot-line.png" alt="크리스피크림도넛 핫라인로고이미지">
+					<p>지금 가장 <span class="red">HOT</span>한 도넛을 확인해보세요!</p>
+				</a>
+			</div>
+		<h1 class="logo"><a href="../index.html"><img src="img/logo.png" alt="크리스피크림도넛 로고 이미지"></a></h1>
+			<div class="find">
+				<input type="search">
+			</div>
+		</div>
+		<div class="bottom">
+			<nav class="clearfix">
+				<ul class="gnb">
+					<li>
+						<a href="#">MENU</a>
+					</li>
+					<li>
+						<a href="#">STORE</a>
+					</li>
+					<li>
+						<a href="#">SERVICE</a>
+					</li>
+					<li>
+						<a href="#">EVENT</a>
+					</li>
+					<li>
+						<a href="#">BRAND</a>
+					</li>
+					<li>
+						<a href="#">COMMUNICATION</a>
+					</li>
+				</ul>
+
+				<ul class="join">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Join</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="sub">
+			<div class="inner-sub">
+				<div class="sub-wrap">
+					<ul class="sub-menu">
+						<li><a href="menu_new&hot.html">신제품 · 인기메뉴</a></li>
+						<li><a href="menu_donut.html">도넛</a></li>
+						<li><a href="menu_coffee.html">커피 · 음료</a></li>
+						<li><a href="menu_Icecream.html">아이스크림 · 프로즌</a></li>
+						<li><a href="menu_branding.html">브랜딩 제품</a></li>
+					</ul>
+					<ul class="sub-menu">
+						<li><a href="store_find-store.html">매장찾기</a></li>
+						<li><a href="store_franchise.html">가맹점 문의</a></li>
+					</ul>
+					<ul class="sub-menu">
+						<li><a href="service_online-order.html">온라인주문 및 홈서비스</a></li>
+					</ul>
+					<ul class="sub-menu">
+						<li><a href="event_on-event.html">진행이벤트</a></li>
+						<li><a href="event_end-event.html">종료이벤트</a></li>
+					</ul>
+					<ul class="sub-menu">
+						<li><a href="brandstory_donut-movie.html">도넛극장</a></li>
+						<li>
+							<a href="brandstory_brandstory.html">브랜드 스토리</a>
+							<ul>
+								<li><a href="brandstory_brandstory.html">· brand story</a></li>
+								<li><a href="brandstory_history.html">· history</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="brandstory_brand-video.html">브랜드 영상</a>
+						</li>
+					</ul>
+					<ul class="sub-menu">
+						<li><a href="communication_notice.html">공지사항</a></li>
+						<li><a href="communication_faq.html">FAQ</a></li>
+						<li><a href="communication_1-1.inquiry.html">1:1문의</a></li>
+					</ul>
+				</div>
+				<div class="sub-banner">
+					<a href="#">
+						<img src="img/donut-10.png" alt="도넛이미지">
+					</a>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	
+	<section>
+
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d101306.09944990107!2d127.03049633768872!3d37.488677463388925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1629947771260!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<form action="#" method="post">
+			
+				<h2>STORE SEARCH</h2>
+				<label for="city-name">
+				<select id="city">
+				<option value="city_1">도/시 선택</option>
+				<option value="city_2">강원</option>
+				<option value="city_3">경기</option>
+				<option value="city_4">경남</option>
+				<option value="city_5">경북</option>
+				<option value="city_6">광주</option>
+				<option value="city_7">대구</option>
+				<option value="city_8">대전</option>
+				<option value="city_9">부산</option>
+				<option value="city_10">서울</option>
+				<option value="city_11">세종</option>
+				<option value="city_12">울산</option>
+				<option value="city_13">인천</option>
+				<option value="city_14">전남</option>
+				<option value="city_15">전북</option>
+				<option value="city_16">제주</option>
+				<option value="city_17">충남</option>
+				<option value="city_18">충북</option>
+				</select>
+				<select id="city2">
+					<option value="city2_1">구/군 선택</option>
+				</select>
+				</label>
+				
+				<label for="store">
+				<input type="text" placeholder="매장명">
+				</label>
+				
+				<p class="search"><a href="#">검색하기</a></p>
+				<ul class="map-list">
+					<li>
+						<p></p>
+						<p>가좌역점</p>
+						<p>서울 서대문구 수색로 56 1층 127, 128호<br>(지번)북가좌동 487<br>
+						매일 09:00 ~ 22:00<br>
+						02-302-4464</p>
+					</li>
+					<li>
+						<p></p>
+						<p>개봉역점</p>
+						<p>서울 구로구 경인로40길 47 2층<br>(지번)개봉동 181-13<br>
+						매일 09:00 ~ 23:00<br>
+						02-2619-2617</p>
+					</li>
+					<li>
+						<p></p>
+						<p>강남역점</p>
+						<p>서울 강남구 강남대로 376 82 58빌딩 <br>지하 1층<br>(지번)역삼동 825-8<br>
+						월~금 07:00 ~ 22:00<br>
+						02-567-1937</p>
+					</li>
+					<li>
+						<p></p>
+						<p>강남역지하쇼핑센터점</p>
+						<p>서울 강남구 강남대로 지하 396 지하1층 북-6호<br>(지번)역삼동 804<br>
+						매일 08:00 ~ 22:00<br>
+						02-567-9718</p>
+					</li>
+					<li>
+						<p></p>
+						<p>건대스타시티점</p>
+						<p>서울 광진구 아차산로 272 스타시티쇼핑몰 지하 1층<br>(지번) 자양동 227-7<br>
+						매일 09:00 ~ 23:00<br>
+						02-2024-1460</p>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-wrap">
+			<div class="footer-map">
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">채용정보</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">윤리경영</a></li>
+					<li><a href="#">사이트맵</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">영상정보 처리기기 운영 및 관리방침</a></li>
+					<li><a href="#">이메일무단수집거부</a></li>
+				</ul>
+			</div>
+			<div class="footer-info">
+				<p>서울특별시 금천구 벚꽃로 104 금천롯데타워(우편번호:08606) 대표문의 02-709-1114(가맹문의)</p>
+				<p>사업자번호 : 106-81-23498 대표자 : 차우철</p>
+				<p>Copyright 2013 KRISPY KREME DONUTS. ALL RIGHTS RESERVED</p>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

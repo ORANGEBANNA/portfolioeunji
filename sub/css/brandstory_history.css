@@ -1,0 +1,139 @@
+/*brandStory_history css*/
+
+
+
+main{
+	width:100%;
+	height: 600px;
+	margin-top: 130px;
+	background: url(../img/brand_title-banner.jpg)no-repeat top center/cover;
+	margin-bottom: 150px;
+}
+
+main .main-txt{
+	text-align: center;
+	transform: translateY(200px);
+	color:#000;
+	position: relative;
+}
+
+main .main-txt h1{
+	font-size: 55px;
+	margin-bottom: 20px;
+     font-weight: 400;
+	letter-spacing: -3px;
+	
+}
+
+main .main-txt p{
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+
+section .history-content{
+	width:100%;
+	max-width: 800px;
+	margin: 0 auto;
+	/*outline: 3px solid lime;*/
+	margin-bottom: 200px;
+	
+}
+
+.history-content .history-wrap{
+	width:100%;
+	position: relative;
+    opacity: 0;
+    top: -40px;
+}
+
+
+.history-wrap ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+
+.history-wrap ul > li{
+	width:50%;
+	height: 300px;
+	/*outline: 3px solid lime;*/
+	float:left;
+	
+}
+
+
+
+
+.history-content .history-wrap >ul>li:before{
+	content:"";
+	display: block;
+	width:10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #00704a;
+	position: absolute;
+	left:419.5px;
+	z-index: 99;
+	margin-top: 65px;
+	
+}
+
+
+.history-content .history-wrap >ul>li:after{
+	content:"";
+	display: block;
+	width:3px;
+	height: 300px;
+	background-color: #cde1be;
+	position: absolute;
+	left:423px;
+    top: 70px;
+}
+
+
+
+.history-wrap ul li img{
+	display: block;
+	width:200px;
+	height: 200px;
+/*	background-color: red;*/
+	margin: 50px auto;
+}
+
+.history-wrap ul li h2{
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 50px;
+	
+	
+}
+
+.history-wrap ul li p{
+	
+	width: 250px;
+	margin: 0 auto;
+	font-size: 15px;
+	letter-spacing: -1px;
+	word-break: keep-all;
+	margin-top: 20px;
+	
+	
+
+}
+
+.imgleftmove{
+	transform: translateX(20%);
+}
+
+.imgrightmove{
+	transform: translateX(-10%);
+}
+
+.txtmove{
+	padding-left: 150px;
+	box-sizing: border-box;
+}
+
+

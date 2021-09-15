@@ -1,0 +1,247 @@
+/*header css*/
+
+@charset "utf-8";
+
+
+header {
+	width: 100%;
+	height: 130px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	
+}
+
+header:after{
+	content:"";
+	display: block;
+	width:100%;
+	height: 2px;
+	background-color: #cde1be;
+	position: absolute;
+	top:130px;
+}
+
+
+
+
+header .top {
+	
+	width: 1280px;
+	height: 80px;
+	margin: 0 auto;
+	/*background-color: blue;*/
+}
+
+header .top .hot-line {
+	width: 33.33%;
+	/*background-color: blue;*/
+	float: left;
+	position: relative;
+	top:-5px;
+}
+
+header .top .hot-line > a {
+	width: 100%;
+	float: left;
+	font-size: 13px;
+	word-break: keep-all;
+
+}
+
+header .top .hot-line > a > img{
+	/*background-color: aqua;*/
+	float:left;
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+
+header .top .hot-line > a > img:hover{
+	transform: rotate(5deg);
+}
+
+header .top .hot-line > a > p{
+	
+	/*background-color: pink;*/
+	position: absolute;
+	bottom:19px;
+	left:100px;
+	width: 120px;
+}
+
+header .top .hot-line > a > p:hover{
+	font-weight: bold;
+}
+
+header .top .hot-line > a > p .red{
+	color:#c30e2e;
+    font-weight: bold;
+}
+
+
+header .top .logo {
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	/*background-color: gold;*/
+	transform: translate(35%, 10%);
+}
+
+header .top .logo a {
+	display: block;
+}
+
+header .top .logo a > img {
+	display: block;
+	width: 132px;
+}
+
+header .top .find input{
+	float: right;
+	line-height: 35px;
+	margin-top: 30px;
+	background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 0;
+    border-bottom: 1px solid gray;
+	outline:0;
+	cursor: pointer;
+   
+}
+
+header .bottom{
+	width: 1280px;
+	margin: 0 auto;
+	height: 50px;
+	background-color: #fff;
+}
+
+header .bottom nav {
+	clear: both;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	position: relative;
+	top:0;
+	line-height: 50px;
+	/*text-align: center;*/
+	
+
+}
+
+nav .gnb {
+	width: 80%;
+	/*height: 100%;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color:#fff;
+	line-height: 40px;
+	
+}
+
+nav .gnb > li {
+	width: 16%;
+	float: left;
+	/*text-align: center;*/
+	margin-left: 5px
+
+}
+
+nav .gnb > li > a {
+	font-weight: bold;
+	color:#393939;
+
+}
+
+nav .gnb > li > a:hover {
+
+	color: #00704a;
+	
+}
+/*서브메뉴*/
+
+header .sub{
+	width:100%;
+	background-color: #fff;
+	display: none;
+}
+
+header .sub .inner-sub{
+	
+	width: 1280px;
+	margin: 0 auto;
+	height: 350px;
+	position: relative;
+	/*background-color: yellow*/
+	
+}
+
+header .sub .inner-sub .sub-wrap{
+	width:80%;
+	position: absolute;
+	top:0;
+	left:0;
+	
+}
+
+.sub-wrap .sub-menu{
+	margin-top: 10px;
+	width:16.55%;
+	float:left;
+	line-height: 3;
+	text-indent: 3px;
+	
+}
+
+.sub-menu li a{
+	font-size: 16px;
+	font-weight: 400;
+	color:#333;
+	letter-spacing: -1px;
+	
+}
+
+.sub-menu li a:hover{
+	color:#00704a;
+	font-weight: 500;
+}
+
+.inner-sub .sub-banner{
+	position: absolute;
+	right:0;
+	top:65px;
+}
+
+.inner-sub .sub-banner:hover{
+	transform: rotate(10deg);
+}
+
+nav .join {
+	width: 10%;
+	float: right;
+	line-height: 40px;
+	
+}
+
+nav .join > li {
+	width: 50%;
+	float: left;
+	text-align: right;	
+}
+
+
+nav .join > li > a {
+	
+	font-weight: bold;
+}
+
+nav .join > li > a:hover {
+	color: #00704a;
+	
+}

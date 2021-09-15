@@ -1,0 +1,472 @@
+/*index.css*/
+
+@charset "utf-8";
+
+main {
+	margin-top: 130px;
+	width: 100%;
+	cursor: pointer;
+}
+
+main .main-box {
+
+	width: 100%;
+}
+
+main .main-box .main-contain {
+	width: 100%;
+	overflow: hidden;
+    position: relative;
+}
+
+main .main-box .main-contain .main-inner {
+	width: 200%;
+	/*	height: 600px;*/
+	position: relative;
+}
+
+main .main-box .main-contain .main-inner > li {
+	width: 50%;
+	/*height: 100%;*/
+	float: left;
+}
+
+main .main-box .main-inner img {
+	display: block;
+	width: 100%;
+	/*float:left;*/
+}
+
+
+
+
+.btngrp {
+	/*background-color: pink;*/
+	width: 60px;
+    height: 30px;
+	position: absolute;
+	bottom: 77px;
+	left: 635px;
+}
+
+.btngrp > li {
+	width: 20px;
+	float: left;
+	margin-right: 10px;
+	color: white;
+	cursor: pointer;
+
+}
+
+section {
+	margin-top: 100px;
+}
+
+section .promise {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+section .promise .promise-title {
+	width: 100%;
+	text-align: center;
+}
+
+section .promise .promise-title > h2 {
+	font-size: 30px;
+	font-weight: 800;
+}
+
+section .promise .promise-title > p {
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+
+section .promise .promise-wrap {
+	width: 90%;
+	margin: 0 auto;
+	/*background-color: pink;*/
+}
+
+section .promise .promise-wrap .promise-step {
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-top: 120px;
+    position: relative;
+    top: 30px;
+    opacity: 0;
+}
+
+section .promise .promise-wrap .promise-step:hover img {
+	transform: rotate(5deg);
+}
+
+section .promise .promise-wrap .promise-step .step1 {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+section .promise .promise-wrap .promise-step .step2 {
+	margin-top: 20px;
+	font-size: 18px;
+	letter-spacing: -1px;
+
+}
+
+section .favorite {
+
+	width: 90%;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	margin-top: 120px;
+	position: relative;
+	/*outline: 3px solid lime;*/
+}
+
+section .favorite .favorite-title {
+	width: 100%;
+	text-align: center;
+}
+
+section .favorite .favorite-title > h2 {
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+section .favorite .favorite-title > p {
+	letter-spacing: -1px;
+	margin-top: 10px;
+
+}
+
+section .favorite .favorite-contain {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+section .favorite .favorite-contain .favorite-wrap {
+	width: 1800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+section .favorite .favorite-contain .favorite-wrap .favorite-menu {
+	width: 300px;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	/*background-color: blue;*/
+	/*overflow: hidden;*/
+	background: url(img/bestt.png) no-repeat top right;
+	
+
+}
+
+
+
+section .favorite .favorite-contain .favorite-wrap .favorite-menu > a > img:hover {
+	transform: scale(1.1);
+
+}
+
+
+
+section .favorite .favorite-contain .favorite-wrap .favorite-menu .menu-txt1 {
+	width: 300px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -1px;
+	margin-top: 20px;
+	font-size: 20px;
+
+}
+
+
+
+section .favorite .favorite-contain .favorite-wrap .favorite-menu .menu-txt2 {
+
+	font-size: 16px;
+	color:#666;
+
+}
+
+section .favorite .favorite-contain .btn{
+	display: block;
+	width:40px;
+	height: 40px;
+	/*outline: 3px solid red;*/
+}
+
+section .favorite .favorite-contain .left-btn{
+	display: block;
+	background: url(img/section-arrow-left.png);
+	position: relative;
+	top: 150px;
+}
+
+section .favorite .favorite-contain .right-btn{
+	display: block;
+	background: url(img/section-arrow-l.right.png);
+	position: relative;
+	top:100px;
+	left:96%;
+}
+
+
+/*
+section .favorite .favorite-contain .btn {
+	background-color: yellow;
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+
+section .favorite .left-btn {
+	position: absolute;
+	bottom: 35%;
+	left: 0%;
+}
+
+
+section .favorite .right-btn {
+	position: absolute;
+	bottom: 35%;
+	right: 25%;
+}
+*/
+
+
+
+
+section .group-sale {
+	width: 100%;
+	height: 250px;
+	margin-top: 150px;
+	background-color: #cde1be;
+	padding: 20px;
+    box-sizing: border-box;
+}
+
+section .group-sale .group-sale-wrap{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*outline: 1px solid red;*/
+    
+}
+
+section .group-sale .group-sale-wrap .group-sale-txt{
+    width:70%;
+    float:left;
+    /*outline: 2px solid lime;*/
+    margin-top: 10px;
+    
+}
+
+section .group-sale .group-sale-wrap .group-sale-txt{
+    width:400px;
+	height: auto;
+	color:#393939;
+	letter-spacing: -1px;
+}
+
+.group-sale-txt .event{
+	font-size:100%;
+	font-weight: bold;
+	background-color: #c2d5b4;
+	width:120px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	
+}
+.group-sale-txt .sale{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.group-sale-txt .want{
+	font-size: 30px;
+	font-weight: 800;
+}
+
+.group-sale-txt:hover .sale{
+	color:#fff;
+}
+
+.group-sale-txt:hover .want{
+	color:#fff;
+}
+
+.group-sale-txt .sale-info{
+	font-size: 17px;
+	margin-top: 20px;
+	letter-spacing: -2px;
+}
+
+.group-sale-wrap .picnic-img{
+    width:30%;
+    float:right;
+    /*outline: 2px solid lime;*/
+    text-align: right;
+     margin-top: 10px;
+}
+
+.group-sale-wrap .picnic-img a{
+    display: block;
+    /*outline: 1px solid blue;*/
+    text-align: right;
+}
+
+.group-sale-wrap .picnic-img a img{
+    display:inline-block;
+	width:200px;
+	height: 200px;
+    /*outline: 1px solid blue;*/
+   
+}
+
+
+section .sns-space {
+	width: 100%;
+	height: 950px;
+	
+}
+
+section .sns-space .sns-wrap {
+	width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+	/*background-color: pink;*/
+	position: relative;
+
+}
+
+section .sns-space .sns-wrap .sns-title {
+	text-align: center;
+	padding-top: 80px;
+	box-sizing: border-box;
+
+}
+
+section .sns-space .sns-wrap .sns-title > p:first-child {
+	font-size: 20px;
+	font-weight: bold;
+	color: #c30e2e;
+	margin-bottom: 20px;
+
+
+}
+
+section .sns-space .sns-wrap .sns-title > p:nth-child(2) {
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+
+}
+
+section .sns-space .sns-wrap .sns-title > p:nth-child(3) {
+	font-size: 20px;
+	margin-bottom: 70px;
+	letter-spacing: -1px;
+
+}
+
+section .sns-space .sns-wrap .sns-image {
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	margin-top: 100px;
+	/*outline:3px solid lime;*/
+    /*background-color: yellow;*/
+}
+
+section .sns-space .sns-wrap .sns-image .image-group-left{
+    width: 25%;
+   /* outline: 1px solid red;*/
+    text-align: center;
+    float:left;
+    
+}
+
+
+
+section .sns-space .sns-wrap .sns-image .image-group-left li~li{
+    margin-top: 5px;
+}
+section .sns-space .sns-wrap .sns-image .image-group-left li a{
+    display: inline-block;
+    text-align: center;
+}
+section .sns-space .sns-wrap .sns-image .image-group-left li a img{
+    display: block;
+    width: 295px;
+    height: 295px;
+    
+   
+}
+
+section .sns-space .sns-wrap .sns-image .big-img{
+    width:50%;
+    float:left;
+    text-align: center;
+}
+
+section .sns-space .sns-wrap .sns-image .big-img img{
+    display: inline-block;
+    width: 600px;
+}
+
+section .sns-space .sns-wrap .sns-image .image-group-right{
+    width: 25%;
+    float:left;
+    text-align: center;
+    
+}
+
+
+section .sns-space .sns-wrap .sns-image .image-group-right li~li{
+    margin-top: 5px;
+}
+section .sns-space .sns-wrap .sns-image .image-group-right li a{
+    display: inline-block;
+    text-align: center;
+    
+}
+section .sns-space .sns-wrap .sns-image .image-group-right li a img{
+    display: block;
+    width: 295px;
+    height: 295px;
+    
+}
+
+section .sns-space .sns-wrap .sns-icon {
+	width: 180px;
+	position: absolute;
+	top: 21%;
+	left: 44%;
+	box-sizing: border-box;
+	/*background-color: yellow;*/
+	margin-top: 40px;
+}
+
+
+section .sns-space .sns-wrap .sns-icon > li {
+	width: 40px;
+	height: auto;
+	float: left;
+	margin-right: 20px;
+
+
+}
+
+section .sne-spance .sns-wrap .sns-icon > li > a > img {
+	display: block;
+	width: 100%;
+}

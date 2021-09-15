@@ -1,0 +1,77 @@
+/*event_on-event css*/
+
+@charset "utf-8";
+
+
+main {
+	width: 100%;
+	margin-top: 130px;
+	height: 600px;
+	background: url(../img/event-title-banner.jpg) no-repeat top center/cover;
+}
+
+main .main-txt {
+	text-align: center;
+	transform: translateY(200px);
+	color: #000;
+	position: relative;
+}
+
+main .main-txt h1 {
+	font-size: 55px;
+	margin-bottom: 20px;
+	letter-spacing: -3px;
+    font-weight: 400;
+	color: #fff;
+
+}
+
+main .main-txt p {
+	font-size: 25px;
+	letter-spacing: -2px;
+	color: #fff;
+}
+
+section .event {
+	width: 100%;
+}
+
+.event-content {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	/*outline: 3px solid yellow;*/
+}
+
+.event-content ul {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 100px;
+	/*outline: 3px solid red;*/
+	
+}
+
+
+.event-content ul > li {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+	overflow: hidden;
+	
+}
+
+.event-content ul>li>a{
+	display: block;
+	width:100%;
+}
+
+.event-content ul > li > a> img {
+	display: block;
+	width:100%;
+	
+}
+
+.event-content ul > li >a>img:hover{
+	transform: scale(1.1);
+	transition: all .5s;
+}

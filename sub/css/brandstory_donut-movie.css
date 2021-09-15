@@ -1,0 +1,187 @@
+/*brandStory_donut-movie css*/
+
+@charset "utf-8";
+
+
+
+main{
+	margin-top: 130px;
+	width:100%;
+	height: 600px;
+	background: url(../img/brand_title-banner.jpg) no-repeat top center/cover;
+	
+}
+
+main .main-txt{
+	text-align: center;
+	transform: translateY(200px);
+	color:#000;
+	position: relative;
+}
+
+main .main-txt h1{
+	font-size: 55px;
+	margin-bottom: 20px;
+	letter-spacing: -3px;
+     font-weight: 400;
+	
+}
+
+main .main-txt p{
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+
+section{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	
+}
+
+.donut-movie{
+	width:100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.donut-movie .donut-movie-wrap{
+	width:100%;
+}
+
+.donut-movie-wrap .donut-movie-content{
+	width:700px;
+	margin: 0 auto;
+}
+
+
+.donut-movie-content .donut-movie-title{
+	width:700px;
+	height: 200px;
+	text-align: center;
+}
+
+.donut-movie-content .donut-movie-title img{
+	width: 150px;
+	height: 150px;
+	float:left;
+	padding-left: 40px;
+	
+}
+.donut-movie-content .donut-movie-title h2{
+	float:left;
+	line-height: 150px;
+	margin-left: 20px;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color:#00704a;
+}
+
+.donut-movie-video{
+	text-align: center;
+	width:700px;
+	height: 500px;
+	background: url(../img/brand-donut-movie-deco2222.png);
+    
+		
+}
+
+.donut-movie-video > iframe{
+    width:625px;
+    height: 448px;
+	position: relative;
+	top:24px;
+    left:9px;
+    border-radius: 20px;
+}
+
+.donut-movie-film{
+	width:100%;
+	margin: 150px auto;
+	
+}
+
+.donut-movie-film .donut-movie-film-wrap{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+	
+}
+
+.donut-movie-film-wrap .movie-film-flow>li{
+	width:2000px;
+    margin: 0 auto;
+   
+	/*outline: 1px solid lime;*/
+    background: url(../img/movi-film-around3.png) no-repeat top center/cover;
+   
+	
+}
+
+.flowimg{
+    width: 100%;
+    height: 215px;
+    
+}
+
+.flowimg li{
+	width:200px;
+	height:200px;
+	float:left;
+	position:relative;
+}
+
+.flowimg li a{
+	display:block;
+}
+
+.flowimg li a img{
+	display:block;
+	width:100%;
+	position: absolute;
+	left:0;
+	top:28px;
+}
+
+
+.notice{
+	width:100%;
+    margin: 0 auto;
+	height: 280px;
+
+	
+}
+
+.notice .notice-wrap{
+	width: 700px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.notice-deco{
+	width:30%;
+	float:left;
+	transform: translatey(50%);
+}
+
+.notice-deco a img{
+	width: 150px;
+	height: 150px;
+	display: block;
+	
+}
+
+.notice-txt{
+	width:70%;
+	float:right;
+	transform: translateY(70%);
+	line-height: 30px;
+	letter-spacing: -1px;
+	text-align: center;
+	
+}
+
+.notice-txt> h2{
+	margin-bottom: 30px;
+	
+}

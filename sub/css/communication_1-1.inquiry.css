@@ -1,0 +1,154 @@
+/*communication_1-1.inquiry.css*/
+
+@charset "utf-8";
+
+main{
+	margin-top: 130px;
+	background: url(../img/communication-title-banner.jpg) no-repeat top center/cover;
+	width:100%;
+	height: 600px;
+	
+}
+
+main .main-txt{
+	text-align: center;
+	transform: translateY(200px);
+	color:#000;
+	position: relative;
+}
+
+
+
+main .main-txt h1{
+	font-size: 55px;
+	margin-bottom: 20px;
+	letter-spacing: -3px;
+     font-weight: 400;
+	
+}
+
+main .main-txt p{
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+section{
+	width:100%;
+	margin-top: 100px;
+}
+
+section .inquiry{
+	width:800px;
+	margin: 0 auto;
+}
+
+section .inquiry .inquiry-wrap{
+	width:100%;
+}
+
+.inquiry-wrap .inquiry-txt{
+	width:100%;
+	color:#393939;
+}
+
+.inquiry-txt .title{
+	width:100%;
+	margin-bottom: 30px;
+}
+
+.title img{
+	display: block;
+	width:40px;
+	height: 40px;
+	float:left;
+}
+.title h2{
+	width:50%;
+	/*background-color: yellow;*/
+	float:left;
+	margin-left: 10px;
+	
+}
+
+.title-txt{
+	letter-spacing: -1px;
+}
+
+.title-txt p{
+	margin-bottom: 10px;
+}
+
+.inquiry-content{
+	width:100%;
+	margin-top: 50px;
+}
+.inquiry-content form{
+	width:100%;
+}
+.inquiry-content form table{
+	width:100%;
+	border-collapse: collapse;
+	color:#393939;
+	
+}
+.inquiry-content form table tr{
+	width:100%;
+	height: 80px;
+	border-bottom: 1px solid #cde1be;
+
+}
+
+.inquiry-content form table tr:first-child{
+	border-top: 1px solid #cde1be;
+}
+
+.inquiry-content form table th{
+	font-weight: 500;
+	letter-spacing: -1px;
+	text-align: left;
+	text-indent: 20px;
+	font-size: 18px;
+	background-color: #cde1be;
+}
+.inquiry-content form table td{
+	text-indent: 20px;
+}
+.inquiry-content form table tr td input{
+	font-size: 14px;
+}
+
+.inquiry-content form table .s-file>input{
+	width:100px;
+	height: 30px;
+	border: none;
+	background: #cde1be;
+	letter-spacing: -1px;
+	color:#fff;
+}
+
+.inquiry-content form table tr .contain{
+	height: 200px;
+}
+
+
+
+
+.inquiry-content form table td select{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #cde1be;
+}
+
+.inquiry-content form .submit{
+	text-align: right;
+	margin-top: 30px;
+}
+
+.submit input{
+	width: 100px;
+	height: 30px;
+	border: 0;
+	background: #cde1be;
+	letter-spacing: -1px;
+	color:#fff;	
+}

@@ -1,0 +1,151 @@
+/*find-store.css*/
+
+@charset "utf-8";
+
+
+
+/*main{
+	width:100%;
+	margin-top: 130px;
+	height: 600px;
+	background:url(../img/franchise-title-banner.jpg) no-repeat top center/cover;
+}*/
+
+section {
+	margin-top: 130px;
+    height: 100%;
+}
+
+
+section .map {
+	width: 100%;
+    height: 100%;
+	position: relative;
+	
+}
+
+
+section .map iframe {
+	width: 100%;
+	height: 800px;
+}
+
+.map form {
+	width: 300px;
+	height: 530px;
+	border: 1px solid lightgray;
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	overflow: auto;
+	
+}
+
+form > h2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+}
+
+form label {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+form #city {
+	display: inline-block;
+	height: 30px;
+	width: 110px;
+}
+
+form #city2 {
+	display: inline-block;
+	height: 30px;
+	width: 110px;
+}
+
+form input {
+	margin-top: 10px;
+	height: 30px;
+	width: 220px;
+}
+
+form .search {
+	width: 100px;
+	margin: 15px auto;
+	background-color: #00704a;
+	text-align: center;
+	border-radius: 100px;
+	
+}
+
+form .search a {
+	color:#fff;
+	font-size: 14px;
+	padding: 5px;
+	display:block;
+	width:100%;
+	border-radius: 100px;
+	box-sizing: border-box;
+	
+}
+
+form .search:hover a{
+	background: #fff;
+	border: 1px solid #00704a;
+	box-sizing: border-box;
+	color:#00704a;
+	
+}
+
+
+form .map-list{
+	width:100%;
+	/*padding-left: 10px;
+	box-sizing: border-box;*/
+	border-top: 1px solid gray;
+    padding: 5px;
+    box-sizing: border-box;
+	
+	
+}
+
+form .map-list li{
+	border-bottom: 1px solid gray;
+	color:#393939;
+	padding:5px;
+	box-sizing: border-box;
+
+}
+
+
+form .map-list li p{
+	font-size: 11px;
+	word-break: keep-all;
+}
+
+
+form .map-list li p:first-child{
+	width:40px;
+	height: 40px;
+	background: url(../img/donut-10.png) no-repeat top center/cover;
+	float:left;
+}
+
+form .map-list li p:nth-child(2){
+	line-height: 40px;
+	font-size: 20px;
+	letter-spacing: -1px;
+	/*outline: 3px solid lime;*/
+	
+}
+
+form .map-list li p:nth-child(3){
+	clear:both;
+	padding-left: 40px
+}
+

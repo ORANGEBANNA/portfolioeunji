@@ -1,0 +1,326 @@
+/*store_frahchise.css*/
+
+@charset "utf-8";
+
+main {
+	margin-top: 130px;
+	width: 100%;
+	height: 600px;
+	background: url(../img/franchise-title-banner.jpg)no-repeat top center/cover;
+}
+
+main .main-txt{
+	text-align: center;
+	transform: translateY(200px);
+	color:#000;
+	position: relative;
+}
+
+
+main .main-txt h1{
+	font-size: 55px;
+	margin-bottom: 40px;
+	letter-spacing: -3px;
+	
+}
+
+main .main-txt p{
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+
+section .franchise-now {
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 100px;
+	
+}
+
+.franchise-now .now-wrap {
+	padding: 15px;
+	/*outline: 3px solid lime;*/
+	text-align: center;
+	
+}
+
+
+
+.now-wrap img {
+	/*display: inline-block;*/
+	width: 300px;
+	/*outline: 3px solid lime;*/
+}
+
+.now-wrap img:hover{
+	opacity: 0.7;
+}
+
+.now-wrap p {
+	margin-top: 30px;
+	letter-spacing: -1px;
+	line-height: 30px;
+}
+
+
+.now-wrap p span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.now-wrap p .sweet{
+	color:#00704a;
+	font-size: 16px;
+}
+
+
+.franchise-info {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 100px;
+	/*background-color: yellow;*/
+}
+
+.franchise-info h2 {
+	margin-bottom: 30px;
+	font-size: 25px;
+	
+}
+
+.franchise-info .info-question {
+	width: 100%;
+
+}
+
+.info-question h3 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.info-question ul li {
+	width: 23%;
+	border: 3px solid #00704a;
+	height: 100px;
+	text-align: center;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+
+.info-question ul li:first-child{
+	margin-right: 2%;
+}
+
+
+.info-question ul li~li{
+	margin-right: 2%;
+}
+
+.info-question ul li:last-child{
+	margin-right: 0;
+}
+
+.info-question ul li a {
+	line-height: 45px;
+}
+
+.info-question ul li:hover{
+	background-color: #00704a;
+	font-weight: bold;
+}
+
+.info-question ul li:hover a{
+	color:#fff;
+}
+
+.info-ready {
+	width: 100%;
+}
+
+.info-ready h3 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.info-ready .franchise-edu {
+	width: 32%;
+	/*background-color: blue;*/
+	float: left;
+	margin-right: 1.3%;
+}
+
+
+
+
+.franchise-edu p:first-child {
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #00704a;
+	color: #fff;
+	letter-spacing: -1px;
+}
+
+.franchise-edu p:last-child {
+	height: 150px;
+	text-align: center;
+	word-break: keep-all;
+	border: 2px solid #00704a;
+	padding: 15px;
+	box-sizing: border-box;
+	line-height: 30px;
+	letter-spacing: -1px;
+	margin-bottom: 100px;
+}
+
+.interior {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.interior h2 {
+	margin-bottom: 30px;
+	font-size: 25px;
+	
+}
+
+.interior-pic1 {
+	width: 100%;
+}
+
+.interior-pic1 ul {
+	width: 100%;
+}
+
+
+
+
+.interior-pic1 ul li {
+	width: 380px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+
+
+.interior-pic1 ul li img {
+	display: block;
+	width: 390px;
+}
+
+.interior-pic1 ul li img:hover{
+	transform: scale(1.1);
+	transition: all .5s;
+}
+
+
+.interior-pic2 {
+	width: 100%;
+}
+
+.interior-pic2 ul {
+	width: 100%;
+}
+
+.interior-pic2 ul li {
+	width: 380px;
+    height: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+
+
+}
+
+.interior-pic2 ul li:first-child img {
+	display: block;
+	width: 390px;
+}
+
+.interior-pic2 ul li:first-child img:hover{
+	transform: scale(1.1);
+	transition: all .5s;
+}
+
+
+.interior-pic2 ul li:last-child{
+   /* outline: 1px solid lime;*/
+    margin-right: 0;
+}
+
+
+.interior-pic2 ul li:last-child img {
+	display: block;
+	width: 200px;
+    height: 230px;
+	position: relative;
+	top:73px;
+	left:205px;
+    
+}
+
+
+.franchise-cost {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.franchise-cost .cost-wrap {
+	width: 100%;
+}
+
+.cost-wrap .cost-title {
+	/*background-color: blue;*/
+	width: 100%;
+}
+
+.cost-title h2 {
+	width: 70%;
+	float: left;
+	font-size: 25px;
+	
+	
+}
+
+.cost-title p {
+	width: 30%;
+	float: right;
+	margin-top: 5px;
+	transform: translateX(30%);
+}
+
+.cost-detail {
+	width:100%;
+	/*background-color: skyblue;*/
+}
+
+.cost-detail table{
+	width:800px;
+	border-top: 3px solid #00704a;
+	border-bottom: 3px solid #00704a;
+	font-size: 15px;
+	border-collapse: collapse;
+}
+
+
+table tr th{
+	width:100px;
+	height: 50px;
+	border-bottom: 1px solid #00704a;
+	font-size: 17px;
+}
+
+table tr td{
+	width:100px;
+	height: 100px;
+	text-align: center;
+	word-break: keep-all;
+	/*border-bottom: 1px solid #00704a;*/
+	
+	border-bottom: 1px solid #00704a;
+}
+
